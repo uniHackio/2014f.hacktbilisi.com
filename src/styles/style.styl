@@ -1,0 +1,51 @@
+@import url('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css')
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,700')
+@import 'nib'
+
+
+
+$logoFontFamily = 'Roboto', sans-serif
+$unihackLogoFontFamily = Monaco,Consolas,"Lucida Console",monospace
+
+$white = hsl(0, 0%, 100%)
+$darkBlue = hsl(200, 40%, 10%)
+$blue = hsl(200, 40%, 30%)
+$lightBlue = hsl(200, 40%, 50%)
+$darkerGray = hsl(0, 0%, 20%)
+$darkGray = hsl(0, 0%, 30%)
+$gray = hsl(0, 0%, 40%)
+$lightGray = hsl(0, 0%, 70%)
+$lighterGray = hsl(0, 0%, 82%)
+$lightestGray = hsl(0, 0%, 95%)
+
+@import './partials/_centered'
+@import './partials/_hidden'
+html, body
+  margin: 0
+  height: 100%
+  width: 100%
+  font-size: 10px
+
+a
+  text-decoration: none
+  color $lightBlue
+
+h1 
+  font-size: 2em
+h2 
+  font-size: 1.5em
+h3 
+  font-size: 1.17em
+h5 
+  font-size: .83em
+h6 
+  font-size: .75em
+p
+  line-height: 1.4em
+
+#main-wrapper
+  height: 100%
+
+@import './partials/_page'
+
+@import './pages/_home'
