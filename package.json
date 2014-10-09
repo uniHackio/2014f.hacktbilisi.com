@@ -55,6 +55,9 @@
     "gulp-util": "^3.0.1",
     "handlebars": "^2.0.0",
     "hbsfy": "^2.2.0",
-    "three": "^0.66.4"
+    "three": "^0.66.4",
+    "gulp-load-plugins": "^0.7.0",
+    "run-sequence": "^1.0.1",
+    "coffee-script": "^1.8.0"
   }
 }
