@@ -1,6 +1,4 @@
-unihack.ge
+hackTbilisi.com
 ========
 
-uniHack Official Website (GE version)
-
-unihack.io coming soon
+hackTbilisi Official Website
