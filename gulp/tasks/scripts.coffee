@@ -30,12 +30,15 @@ module.exports = (gulp, plugins, config)->
   gulp.task 'scripts', ->
     return pipeBundlerToBundle(setUpBundler(createBundler(config),config), ((bundler)->
       config.logger.start('scripts')
-      bundler.bundle()
-        .pipe(source(config.dir.build.script))
-        .pipe(plugins.streamify(plugins.if(config.isProduction, plugins.stripDebug())))
-        .pipe(plugins.streamify(plugins.if(config.isProduction, plugins.uglify())))
-        .pipe(gulp.dest(config.dir.build.base))
-        .pipe(plugins.connect.reload())
+      stream = bundler.bundle()
         .on "error", config.logger.error
         .on "end", config.logger.end.bind(undefined,'scripts')
+        .pipe(source(config.dir.build.script))
+      if config.isProduction
+        stream.pipe(plugins.stripDebug()) 
+        stream.pipe(plugins.uglify())
+      stream
+        .pipe(gulp.dest(config.dir.build.base))
+        .pipe(plugins.connect.reload())
+      return stream
     ), config)

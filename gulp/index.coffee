@@ -6,10 +6,11 @@ plugins     = require('gulp-load-plugins')({
   lazy: true
 })
 
+isBuild = process.argv[3] == "build"
 config = 
-  isWatching: true
-  isDevelopment: true
-  isProduction: false
+  isWatching: !isBuild
+  isDevelopment: !isBuild
+  isProduction: isBuild
   logger: require('./util/logger')
   locals: require("../src/locals")
   dir:
