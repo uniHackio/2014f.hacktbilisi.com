@@ -5,14 +5,13 @@ plugins     = require('gulp-load-plugins')({
   camelize: true,
   lazy: true
 })
-
-isBuild = process.argv[3] == "build"
+isDevelopment = process.argv[2] == undefined
 config = 
-  isWatching: !isBuild
-  isDevelopment: !isBuild
-  isProduction: isBuild
+  isWatching: isDevelopment
+  isDevelopment: isDevelopment
+  isProduction: !isDevelopment
   logger: require('./util/logger')
-  locals: require("../src/locals")
+  locals: {siteURL:'http://hacktbilisi.com'}
   dir:
     src:
       base: './src'
@@ -23,10 +22,8 @@ config =
     build: 
       base: './build'
       script: 'app.js'
-  
 
 for name, task of requireDir('tasks')
-  console.log(name)
   task(gulp,plugins,config)
 
 

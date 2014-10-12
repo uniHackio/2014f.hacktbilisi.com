@@ -2,7 +2,7 @@ createBundler = (config)->
   browserify   = require('browserify')
   return browserify
     entries: [config.dir.src.scripts]
-    extensions: [".coffee", ".cssfy"]
+    extensions: [".coffee"]
 
     # Enable source maps!
     debug: config.isDevelopment
@@ -13,12 +13,9 @@ createBundler = (config)->
     fullPaths: config.isDevelopment
 
 setUpBundler = (bundler, config)->
-  hbsfy = require("hbsfy").configure
-    extensions: ["cssfy"]
   watchify = require('watchify')
   bundler = watchify(bundler)  if config.isWatching
-  # use transforms
-  bundler.transform hbsfy
+  return bundler
 
 pipeBundlerToBundle = (bundler,bundle,config)->
   # Rebundle with watchify on changes.
@@ -32,13 +29,12 @@ module.exports = (gulp, plugins, config)->
       config.logger.start('scripts')
       stream = bundler.bundle()
         .on "error", config.logger.error
-        .on "end", config.logger.end.bind(undefined,'scripts')
         .pipe(source(config.dir.build.script))
-      if config.isProduction
-        stream.pipe(plugins.stripDebug()) 
-        stream.pipe(plugins.uglify())
-      stream
-        .pipe(gulp.dest(config.dir.build.base))
-        .pipe(plugins.connect.reload())
+      if(config.isProduction)
+        stream.pipe(plugins.streamify(plugins.stripDebug())) 
+        stream.pipe(plugins.streamify(plugins.uglify()))
+      stream.pipe(gulp.dest(config.dir.build.base))
+        .pipe(plugins.if(config.isDevelopment,plugins.connect.reload()))
+        .on "end", config.logger.end.bind(undefined,'scripts')
       return stream
     ), config)
