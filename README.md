@@ -1,6 +1,4 @@
-unihack.ge
+hackTBILISI.com
 ========
 
-uniHack Official Website (GE version)
-
-unihack.io coming soon
+hackTBILISI.com is powered by uniHack.io
