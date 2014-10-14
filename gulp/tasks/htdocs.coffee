@@ -1,7 +1,8 @@
 es = require('event-stream')
+localizer = require('../util/t')
 module.exports = (gulp, plugins, config)->
-  i18n = require('../util/t')
   gulp.task 'htdocs', ->
+    i18n = localizer(config.defaultLanguageKey,config.locals)
     stream = gulp
       .src(config.dir.src.htdocs + "index.jade")
     files = []

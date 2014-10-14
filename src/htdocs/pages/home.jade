@@ -11,53 +11,53 @@ include ../includes/socialLink.jade
   nav#social
     +socialLink(
       'facebook',
-      'hackTbilisi on facebook', 
+      t('%s on %s',['hackTbilisi', 'facebook']),
       'https://www.facebook.com/hacktbilisi')
     +socialLink(
       'twitter',
-      'hackTbilisi on twitter',
+      t('%s on %s',['hackTbilisi', 'twitter']),
       'https://twitter.com/hacktbilisi')
     +socialLink(
       'google-plus',
-      'uniHackge on google+',
+      t('%s on %s',['uniHackge', 'google+']),
       'https://plus.google.com/107084110225494322165')
     +socialLink(
       'youtube-play',
-      'uniHackge on youtube',
+      t('%s on %s',['uniHackge', 'youtube']),
       'https://www.youtube.com/uniHackge')
     +socialLink(
       'envelope',
-      'contact us',
+      t('contact us'),
       'mailto:team@unihack.ge?Subject=wow%20much%20love')
   header
     time.date(datetime="2014-12-19/2014-12-21")
-      span.month dec
+      span.month=t('dec')
       span.days 19-20-21
     h1.title 
       span.hack hack
       span.tbilisi tbilisi
-    h2.subtitle Connecting Hackers from Europe and Asia
+    h2.subtitle=t('Connecting Hackers from Europe and Asia')
 
   #cuboid
     form(action='//uniHack.us9.list-manage.com/subscribe/post-json?u=6a7d76897aa515bad1b5aa250&id=362dcb72ea&c=?', method='post', target='_blank', novalidate='')
       // #1 hover button
       div
-        p.cuboid-text Stay Tuned!
+        p.cuboid-text=t('Stay Tuned!')
       // #2 text input
       div
         // Label to trigger #submit
         label.submit-icon(for='submit')
           i.fa.fa-chevron-right
-        input#email.cuboid-text(type='email', spellcheck="false", value='', name='EMAIL', placeholder='Your Email', autocomplete='off', required='')
+        input#email.cuboid-text(type='email', spellcheck="false", value='', name='EMAIL', placeholder=t('Your Email'), autocomplete='off', required='')
         input.hidden(type='text', name='b_6a7d76897aa515bad1b5aa250_362dcb72ea', tabindex='-1', value='')
         // hidden submit button
         input#submit(type='submit', value='Subscribe', name='subscribe')
       // #3 loading message
       div
-        p.cuboid-text.loader Just a moment
+        p.cuboid-text.loader=t('Just a moment')
       // #4 success message
       div
         // reset/retry button
         span.reset-icon
           i.fa.fa-refresh
-        p.cuboid-text We'll be in touch!
+        p.cuboid-text=t('We\'ll be in touch!')
