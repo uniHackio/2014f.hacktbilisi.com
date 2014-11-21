@@ -4,3 +4,9 @@ include ./includes/page.jade
 block content
   +page('home')
     include ./pages/home.jade
+  +page('faq')
+    article!=md('./articles/faq.md')
+  //- +page('speaker')
+  //-   include ./pages/speaker.jade
+  +page('sponsors')
+    include ./pages/sponsors.jade

@@ -1,4 +1,35 @@
-module.exports=
+args2Obj = ->
+  keys = Array::slice.apply(arguments)
+  ->
+    values = Array::slice.apply(arguments)
+    keys.reduce ((result, key, index) ->
+      result[key] = values[index]
+      result
+    ), {}
+
+group = args2Obj("name", "sponsors")
+sponsor = args2Obj("name", "href", "image")
+
+sponsorGroups = [
+  group('giga',[
+    sponsor('BasisBank','http://www.basisbank.ge/','http://www.basisbank.ge/imgs/logo_en.jpg')
+  ]),
+  group('mega',[
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+  ]),
+  group('kilo',[
+    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+  ])
+]
+
+module.exports = 
+  data:
+    sponsorGroups: sponsorGroups
   defaultLanguageKey: 'en'
   locals:
     en:

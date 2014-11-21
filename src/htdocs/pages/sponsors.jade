@@ -1,0 +1,15 @@
+mixin sponsor(name,href,image)
+  a.sponsor-item(title=name, href=href)
+    img(alt=name,src=image)
+
+mixin sponsors(type)
+  div(class="sponsors-"+type)
+    block
+
+
+article.about-sponsors!=md('./articles/about-sponsors.md')
+section.sponsors
+  for sponsorGroup in sponsorGroups
+    +sponsors(sponsorGroup.name)
+      for sponsor in sponsorGroup.sponsors
+        +sponsor(sponsor.name, sponsor.href, sponsor.image)
