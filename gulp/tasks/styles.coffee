@@ -3,6 +3,7 @@ module.exports = (gulp, plugins, config)->
   gulp.task 'styles', ->
     return gulp
       .src(config.dir.src.styles + "style.styl")
+      .on "error", config.logger.error
       .pipe plugins.plumber()
       .pipe plugins.progeny()
       .pipe plugins.stylus
