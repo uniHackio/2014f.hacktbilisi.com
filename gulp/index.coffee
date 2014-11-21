@@ -11,6 +11,7 @@ isDevelopment = process.argv[2] == undefined
 addLocalsToConfig =(path,config)->
   config.updateLocals = ()->
     locals = requireUncached(path)
+    config.data = locals.data
     config.locals = locals.locals
     config.defaultLanguageKey = locals.defaultLanguageKey
   config.updateLocals()

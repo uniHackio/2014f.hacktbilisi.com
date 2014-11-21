@@ -19,9 +19,15 @@ html(lang="en")
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     link(rel='stylesheet', href='/style.css')
     link(rel='shortcut icon' href='/images/favicon.ico')
-    title= hackTbilisi
+    title=t('META_TITLE')
   body.home-visable
     div#main-background
+    nav#main-nav
+      a.unihack(href='#home')=t('META_TITLE')
+      ul
+        +mainNavigationLink('faq', t('კითხვები'), t('ხშირად დასმული კითხვები'))
+        //- +mainNavigationLink('speaker', t('სპიკერები'), t('რამე ტექსტი'))
+        +mainNavigationLink('sponsors', t('სპონსორები'), t('რამე ტექსტი '))
     div#main-wrapper
       block content
     script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")

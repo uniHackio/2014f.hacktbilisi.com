@@ -15,11 +15,16 @@ $darkerGray = hsl(0, 0%, 20%)
 $darkGray = hsl(0, 0%, 30%)
 $gray = hsl(0, 0%, 40%)
 $lightGray = hsl(0, 0%, 70%)
+$opaqueLightGray = hsla(0, 0%, 0%, 100% - 70%)
 $lighterGray = hsl(0, 0%, 82%)
 $lightestGray = hsl(0, 0%, 95%)
+$opaqueLightestGray = hsla(0, 0%, 95%, 95%)
+$opaqueLight = hsla(0, 0%, 100%, 90%)
 
 @import './partials/_centered'
 @import './partials/_hidden'
+@import './partials/_navigation'
+@import './partials/_article'
 html, body
   margin: 0
   height: 100%
@@ -49,3 +54,6 @@ p
 @import './partials/_page'
 
 @import './pages/_home'
+@import './pages/_faq'
+@import './pages/_speaker'
+@import './pages/_sponsors'

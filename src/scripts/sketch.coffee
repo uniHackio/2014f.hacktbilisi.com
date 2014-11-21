@@ -85,7 +85,16 @@ init = ->
   projector = new THREE.Projector()
   raycaster = new THREE.Raycaster()
   raycaster.linePrecision = 3
-  renderer = new THREE.WebGLRenderer(antialias: true)
+  try
+    renderer = new THREE.WebGLRenderer(antialias: true)
+  catch error
+    console.error error
+    try
+      renderer = new THREE.CanvasRenderer(antialias: true)
+    catch error
+      console.error error
+      return
+  
   renderer.setClearColor 0xffffff
   renderer.setSize window.innerWidth, window.innerHeight
   container.appendChild renderer.domElement

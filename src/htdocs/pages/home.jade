@@ -39,17 +39,16 @@ include ../includes/socialLink.jade
     h2.subtitle=t('Connecting Hackers from Europe and Asia')
 
   #cuboid
-    form(action='//uniHack.us9.list-manage.com/subscribe/post-json?u=6a7d76897aa515bad1b5aa250&id=362dcb72ea&c=?', method='post', target='_blank', novalidate='')
+    form(action='/register', method='post', target='_blank', novalidate='')
       // #1 hover button
       div
-        p.cuboid-text=t('Stay Tuned!')
+        p.cuboid-text=t('Register')
       // #2 text input
       div
         // Label to trigger #submit
         label.submit-icon(for='submit')
           i.fa.fa-chevron-right
         input#email.cuboid-text(type='email', spellcheck="false", value='', name='EMAIL', placeholder=t('Your Email'), autocomplete='off', required='')
-        input.hidden(type='text', name='b_6a7d76897aa515bad1b5aa250_362dcb72ea', tabindex='-1', value='')
         // hidden submit button
         input#submit(type='submit', value='Subscribe', name='subscribe')
       // #3 loading message

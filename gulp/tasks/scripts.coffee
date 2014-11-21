@@ -2,7 +2,7 @@ createBundler = (config)->
   browserify   = require('browserify')
   return browserify
     entries: [config.dir.src.scripts]
-    extensions: [".coffee"]
+    extensions: ['.coffee','.cssfy ']
 
     # Enable source maps!
     debug: config.isDevelopment
@@ -13,6 +13,9 @@ createBundler = (config)->
     fullPaths: config.isDevelopment
 
 setUpBundler = (bundler, config)->
+  hbsfy = require("hbsfy").configure
+    extensions: ["cssfy"]
+  bundler.transform(hbsfy)
   watchify = require('watchify')
   bundler = watchify(bundler)  if config.isWatching
   return bundler
