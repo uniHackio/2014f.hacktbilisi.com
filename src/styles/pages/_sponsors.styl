@@ -1,11 +1,12 @@
 .page-sponsors
   $background = $opaqueLight
-  article
+  h1,h2,h3,h4,h5
+    margin: 2em 0 1em
+
+  .center
     text-align: center
   .background
     background: $background
-  .sponsors
-    text-align: center
   .sponsors-giga
     .sponsor-item
       width: 16em * 1.50
@@ -15,6 +16,11 @@
       width: 16em * 1.30
       height: 9em * 1.30
   .sponsors-kilo
+    .sponsor-item
+      width: 16em
+      height: 9em
+  
+  .partners,.mediaPartners
     .sponsor-item
       width: 16em
       height: 9em

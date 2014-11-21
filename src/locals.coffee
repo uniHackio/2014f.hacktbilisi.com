@@ -8,33 +8,37 @@ args2Obj = ->
     ), {}
 
 group = args2Obj("name", "sponsors")
-sponsor = args2Obj("name", "href", "image")
+sponsor = partner = args2Obj("name", "href", "image")
+
 
 sponsorGroups = [
   group('giga',[
     sponsor('BasisBank','http://www.basisbank.ge/','http://www.basisbank.ge/imgs/logo_en.jpg')
   ]),
   group('mega',[
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor("Alta Software", "http://altasoft.ge", "/images/sponsors/altasoft.png")
+    sponsor("APEX", "http://apex.ge", "/images/sponsors/apex.png")
   ]),
   group('kilo',[
-    sponsor('AzRy','http://www.azry.com/','http://www.azry.com/new/images/logo.png')
+    sponsor("B.A.G", "http://bag.ge", "/images/sponsors/bag.png")
+    sponsor("AZRY", "http://azry.com", "/images/sponsors/azri.png")
   ])
+]
+mediaPartners = []
+partners = [
+  partner('GitHub','http://github.com','/images/sponsors/github.png')
 ]
 
 module.exports = 
   data:
     sponsorGroups: sponsorGroups
+    mediaPartners: mediaPartners
+    partners: partners
   defaultLanguageKey: 'en'
   locals:
     en:
       'META_SITE_URL': 'http://hacktbilisi.com'
-      'META_TITLE': 'hackTbilisi'
+      'META_TITLE': 'hackTBILISI'
       'META_SITE_NAME': 'hackTbilisi.com'
       'META_DESCRIPTION': 'Connecting Hackers from Europe and Asia, Tbilisi, Georgia , Dec 19-21 .uniHack',
 

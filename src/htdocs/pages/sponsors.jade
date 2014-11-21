@@ -7,9 +7,21 @@ mixin sponsors(type)
     block
 
 
-article.about-sponsors!=md('./articles/about-sponsors.md')
-section.sponsors
+h1.center=t('სპონსორები')
+section.sponsors.center
   for sponsorGroup in sponsorGroups
     +sponsors(sponsorGroup.name)
       for sponsor in sponsorGroup.sponsors
         +sponsor(sponsor.name, sponsor.href, sponsor.image)
+
+if partners.length
+  h1.center=t('პარტნიორები')
+  section.partners.center
+    for partner in partners
+      +sponsor(partner.name, partner.href, partner.image)
+
+if mediaPartners.length
+  h1.center=t('მედია პარტნიორები')
+  section.mediaPartners.center
+    for mediaPartner in mediaPartners
+      +sponsor(mediaPartner.name, mediaPartner.href, mediaPartner.image)
