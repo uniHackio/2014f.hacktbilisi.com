@@ -13,7 +13,7 @@ sponsor = partner = args2Obj("name", "href", "image")
 
 sponsorGroups = [
   group('giga',[
-    sponsor('BasisBank','http://www.basisbank.ge/','http://www.basisbank.ge/imgs/logo_en.jpg')
+    sponsor('BasisBank','http://www.basisbank.ge/','/images/sponsors/basisbank.png')
   ]),
   group('mega',[
     sponsor("Alta Software", "http://altasoft.ge", "/images/sponsors/altasoft.png")
