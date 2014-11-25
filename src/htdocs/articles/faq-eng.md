@@ -1,9 +1,5 @@
-### Only sky is the limit
-ჰაკათონი არის მარათონი, სადაც მონაწილეები მოკლე დროში მუშაობენ ახალ იდეებზე, ტექნოლოგიებზე და უბრალოდ ატარებენ კარგ დროს. უფრო დაწვრილებით განმარტებაზე, იხილეთ 
-[ეს პოსტი](http://goo.gl/AI8s3v).
-
-### ვის შეუძლია მონაწილეობის მიღება?
-ჰაკათონში მონაწილეობის მიღება შეუძლია ყველას, ვინც არის აქტიური სტუდენტი (ბაკალავრის და მაგისტრის) და სკოლის მოსწავლე.
+### Who can participate?
+hackTBILISI is open for anyone who is an active grad, undergrad or high school student.
 
 ### Who else is going to be hacking?
 hackTBILISI will unite hackers from 5 countries. Students from Ukraine, Turkey, Azerbaijan and Armenia will be hacking and having fun together with Georgian students. 
@@ -23,12 +19,11 @@ You can use the our [facebook event page](http://goo.gl/3YH8Kx) to find teammate
 
 
 
-### რამდენი წევრი შეიძლება იყოს გუნდში?
-გუნდში წევრების რაოდენობა არ უნდა აღემატებოდეს ოთხს. <br>
-ინდივიდუალურადაც შეგიძლიათ მონაწილეობის მიღება, თუმცა გვერწმუნეთ, გუნდთან ერთად მუშაობის სიამოვნებას არაფერი შეედრება. 
+### Team size?
+Teams can have up to 4 members. Hackers can participate individually but we highly encourage you to form teams. 
 
 
-### როდის იწყება hackTBILISI?
+### When?
 Opening ceremony:  7:00pm, December 19 <br>
 Hacking starts: 8:00pm, December 19 <br>
 Public expo: 1:00pm - 4:00pm, December 21 <br>
