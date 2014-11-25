@@ -25,7 +25,13 @@ sponsorGroups = [
     sponsor("AZRY", "http://azry.com", "/images/sponsors/azri.png")
   ])
 ]
-mediaPartners = []
+
+
+mediaPartners = [
+  partner('ideahub',"http://ideahub.ge","/images/sponsors/idea.png")
+  partner('Marketer',"http://marketer.ge","/images/sponsors/marketer.png")
+  partner('tabula',"http://tabula.ge","/images/sponsors/tabula.png")
+]
 partners = [
   partner('GitHub','http://github.com','/images/sponsors/github.png')
 ]
@@ -56,9 +62,11 @@ module.exports =
       'Register': 'Register'
       'კითხვები': 'F.A.Q'
       'პარტნიორები': 'Partners'
+      'მედია პარტნიორები': 'Media Partners'
       'სპონსორები': 'Sponsors'
     ka:
       'პარტნიორები': 'პარტნიორები'
+      'მედია პარტნიორები': 'მედია პარტნიორები'
       'სპონსორები': 'სპონსორები'
       'კითხვები': 'კითხვები'
       'Register': 'რეგისტრაცია'
