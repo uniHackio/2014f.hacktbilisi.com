@@ -1,26 +1,39 @@
 
 nav#main-nav
-  $navHeight = 8em
-  $linkTitleFontSize = 2.25em
-  $linkTitleHeight = 2.5em
-  $linkSubtitleFontSize = 1.25em
-  $linkSubtitleHeight = 1.75em
-  $linkSpacingTop = 0.7
+  $navHeight = 6em
+  $linkTitleFontSize = 1.6em
+  $linkTitleHeight = 2em
+  $linkSubtitleFontSize = 0
+  $linkSubtitleHeight = 0
+  $linkSpacingTop = 0.5
   $linkSpacingBottom = 1 - $linkSpacingTop
-  $backgroundColor = hsl(0, 0, 95)
-  .home-visable &
-    position: absolute
-    top: 100%
+  $backgroundColor = $opaqueLight
   position: fixed
   z-index: 1000
   top:0
   left: 0
   right: 0
   height: $navHeight
-  box-shadow: 0 -0.1em $opaqueLightGray;
-  border-bottom: 0.1em solid $opaqueLightGray
-  background: $opaqueLightestGray
-  .unihack
+  border-bottom: 0.1em solid $opaqueLighterGray
+  background: $backgroundColor
+  .logo
+    .home-visable &
+      $fadeDuration = 0.3s
+      top: -2em
+      opacity: 0.1
+      $animation = cubic-bezier(0.6, 0.04, 0.98, 0.335)//easeInCirc
+      transition: opacity $fadeDuration $animation, top 0s linear $fadeDuration+0.1s
+    .hack
+      font-weight: 300 
+      color: hsl(221, 35%, 40%)
+    .tbilisi
+      font-weight: 700
+      text-transform: uppercase
+      color: hsl(0, 82%, 56%)
+
+    opacity:1
+    $animation = cubic-bezier(0.175, 0.885, 0.32, 1.275)//easeOutBack
+    transition: opacity 0.4s $animation, top 0.4s $animation
     font-family: $logoFontFamily
     font-size: 3em
     position: absolute

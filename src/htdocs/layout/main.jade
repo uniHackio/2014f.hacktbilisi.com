@@ -1,8 +1,7 @@
-mixin mainNavigationLink(target,title,subtitle)
+mixin mainNavigationLink(target,title)
   li(class='for-' + target)
     a(href='#' + target)
       span.title=title
-      span.subtitle=subtitle 
 
 doctype html
 html(lang="en")
@@ -23,11 +22,13 @@ html(lang="en")
   body.home-visable
     div#main-background
     nav#main-nav
-      a.unihack(href='#home')=t('META_TITLE')
+      a.logo(href='#home')
+        span.hack hack
+        span.tbilisi tbilisi
       ul
-        +mainNavigationLink('faq', t('კითხვები'), t('ხშირად დასმული კითხვები'))
-        //- +mainNavigationLink('speaker', t('სპიკერები'), t('რამე ტექსტი'))
-        +mainNavigationLink('sponsors', t('სპონსორები'), t('& პარტნიორები'))
+        +mainNavigationLink('faq', t('კითხვები'))
+        //- +mainNavigationLink('speaker', t('სპიკერები'))
+        +mainNavigationLink('sponsors', t('სპონსორები'))
     div#main-wrapper
       block content
     script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
