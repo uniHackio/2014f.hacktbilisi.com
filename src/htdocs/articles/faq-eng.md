@@ -7,7 +7,7 @@ hackTBILISI will unite hackers from 5 countries. Students from Ukraine, Turkey, 
 ### What if I don't have a team or idea? 
 Don't get discouraged if you don't have an idea or a team. Hackathon is a great place to find both. Remember, hackathons are not only about building things, but also building relationships with other people. Come, form teams, brainstorm and kick ass! <br>
 
-You can use the our [facebook event page](http://goo.gl/3YH8Kx) to find teammates or share your ideas.
+You can use our [facebook event page](http://goo.gl/3YH8Kx) to find teammates or share your ideas.
 
 
 
