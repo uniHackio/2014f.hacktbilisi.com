@@ -32,12 +32,12 @@ Closing ceremony: 6pm, December 21
 
 
 ### Is it free to participate?
-Of course! We'll also provide food, drink and snacks during the hackathon.
+Of course! We'll also provide food, drinks and snacks during the hackathon.
 
 
 ### Who runs hackTBILISI?
-hackTBILISI is run by a student organization - [UniHack](http://unihack.io)
+hackTBILISI is run by the student organization - [UniHack](http://unihack.io).
 
 ### Where should I come?
-hackTBILISI is hosted by Free University of Tbilisi
+hackTBILISI is hosted by Free University of Tbilisi.
 
