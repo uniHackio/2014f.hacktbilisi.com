@@ -1,27 +1,26 @@
-### რა არის ჰაკათონი?
+### Only sky is the limit
 ჰაკათონი არის მარათონი, სადაც მონაწილეები მოკლე დროში მუშაობენ ახალ იდეებზე, ტექნოლოგიებზე და უბრალოდ ატარებენ კარგ დროს. უფრო დაწვრილებით განმარტებაზე, იხილეთ 
 [ეს პოსტი](http://goo.gl/AI8s3v).
 
 ### ვის შეუძლია მონაწილეობის მიღება?
 ჰაკათონში მონაწილეობის მიღება შეუძლია ყველას, ვინც არის აქტიური სტუდენტი (ბაკალავრის და მაგისტრის) და სკოლის მოსწავლე.
 
-### ვინ იღებს მონაწილეობას ჰაკათონში?
-ჰაკათონში, გარდა მოსწავლეებისა და სტუდენტებისა მთელი საქართველოდან, მონაწილეობას მიიღებენ გუნდები უკრაინის, თურქეთის, სომხეთისა და აზერბაიჯანის უნივერსიტეტებიდან.
+### Who else is going to be hacking?
+hackTBILISI will unite hackers from 5 countries. Students from Ukraine, Turkey, Azerbaijan and Armenia will be hacking and having fun together with Georgian students. 
 
-### რა ვქნა თუ არ მყავს გუნდი ან არ მაქვს იდეა?
-ეს სულაც არ ნიშნავს, რომ ჰაკათონზე არ უნდა მოხვიდეთ!
-თავისუფლად შეგიძლიათ გამოიყენოთ [hackTBILISI-ის ფეისბუქის ივენთის გვერდი](http://goo.gl/3YH8Kx) გუნდის მოსაძებნად.<br>
-ნუ მოგერიდებათ იმის გაზიარება, თუ როგორი ადამიანი გჭირდებათ გუნდში, ან თქვენ რა შეგიძლიათ თავად შესთავაზოთ გუნდს.
+### What if I don't have a team or idea? 
+Don't get discouraged if you don't have an idea or a team. Hackathon is a great place to find both. Remember, hackathons are not only about building things, but also building relationships with other people. Come, form teams, brainstorm and kick ass! <br>
 
-
-### რა უნდა ვიქონიო თან?
-**სტუდენტებმა :** სტუდენტური ბარათი და/ან პირადობის მოწმობა სტუდენტის სტატუსის აღნიშვნით.<br>
-**მოსწავლეებმა :** მოსწავლის სტატუსის დამადასტურებელი დოკუმენტი. <br>
-**ყველა მონაწილე :** საკუთარი ლეპტოპი, დამტენი, რუბიკის კუბი, პირადი ჰიგიენის საგნები და ყველაფერი, რაც 3 დღის განმავლობაში დაგჭირდებათ.
+You can use the our [facebook event page](http://goo.gl/3YH8Kx) to find teammates or share your ideas.
 
 
-### და რომ არ ვარ დეველოპერი?
-ჰაკათონები არ არის მხოლოდ  დეველოპერებისთვის - ჰაკათონები არის ყველასთვის! ხარ დიზაინერი, ხარ ინჟინერი, ხარ ნებისმიერი სფეროს წარმომადგენელი და გაქვს იდეა, ან არ გაქვს და თვლი რომ შენი ადგილი ჰაკათონზეა ? - მაშინ მოდი, რადგან hackTBILISI-ის კარი ყველასთვის ღიაა.
+
+### What should I bring with me? 
+**College hackers :** Your student ID card.<br>
+**High school hackers :** Any official document from school that shows you are an active student. <br>
+**Everyone :** Laptop, chargers, Rubik's Cube and anything you need to feel comfortable during the hackathon. 
+
+
 
 
 ### რამდენი წევრი შეიძლება იყოს გუნდში?
@@ -30,12 +29,20 @@
 
 
 ### როდის იწყება hackTBILISI?
-ჰაკათონი დაიწყება პარასკევს, 19 დეკემბერს, 20 საათზე და დასრულდება კვირას, 21 დეკემბერს, 16 საათზე.  მონაწილეების ადგილზე რეგისტრაცია დაიწყება 17:00 საათიდან, 19:00 საათზე დაიწყება გახსნის ცერემონია, ხოლო 20:00 საათიდან კი მონაწილეებს შეეძლებათ მუშაობის დაწყება. 
+Opening ceremony:  7:00pm, December 19
+Hacking starts: 8:00pm, December 19
+Public expo: 1:00pm - 4:00pm, December 21
+Closing ceremony: 6pm, December 21 
 
 
-### ჰაკათონში მონაწილეობა უფასოა?
-რა თქმა უნდა. ასევე, 3 დღის განმავლობაში უზრუნველყოფილი იქნება უფასო კვებაც.
+
+### Is it free to participate?
+Of course! We'll also provide food, drink and snacks during the hackathon.
 
 
-### ვინაა ორგანიზატორი და სად ტარდება?
-hackTBILISI-ის  ორგანიზატორია ორგანიზაცია UniHack და თავისუფალი უნივერსიტეტი. ჰაკათონი ტარდება დიდი დიღმის საუნივერსიტეტო კამპუსსში.
+### Who runs hackTBILISI?
+hackTBILISI is run by a student organization - [UniHack](http://unihack.io)
+
+### Where should I come?
+hackTBILISI is hosted by Free University of Tbilisi
+
