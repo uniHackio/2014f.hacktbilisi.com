@@ -1,36 +1,43 @@
-### ვის შეუძლია მონაწილეობის მიღება?
-ჰაკათონში მონაწილეობის მიღება შეუძლია ყველა სტუდენტსა და სკოლის მოსწავლეს. თუ თქვენ არ ხართ არც სტუდენტი და არც მოსწავლე, თქვენ მაინც შეგიძლიათ მონაწილეობის მიღება, მაგრამ მთავარი საპირზო ფონდი მხოლოდ სტუდენტებისა და მოსწავლეებისთვისაა გათვალისწინებული. თუმცა, სპეციალური პრიზები იქნება თქვენთვისაც იქნება გათვალისწინებული.
+### Who can participate?
+hackTBILISI is open for anyone who is an active grad, undergrad or high school student.
+
+### Who else is going to be hacking?
+hackTBILISI will unite hackers from 5 countries. Students from Ukraine, Turkey, Azerbaijan and Armenia will be hacking and having fun together with Georgian students. 
+
+### What if I don't have a team or idea? 
+Don't get discouraged if you don't have an idea or a team. Hackathon is a great place to find both. Remember, hackathons are not only about building things, but also building relationships with other people. Come, form teams, brainstorm and kick ass! <br>
+
+You can use our [facebook event page](http://goo.gl/3YH8Kx) to find teammates or share your ideas.
 
 
-### რა ვქნა თუ არ მყავს გუნდი ან არ მაქვს იდეა?
-ეს სულაც არ ნიშნავს, რომ ჰაკათონზე არ უნდა მოხვიდეთ!
-თავისუფლად შეგიძლიათ გამოიყენოთ HACK@MACS-ის ფეისბუქის ივენთის გვერდი გუნდის მოსაძებნად.
-ლინკი : [http://on.fb.me/MhgAsN](http://on.fb.me/MhgAsN) <br>
-ნუ მოგერიდებათ იმის გაზიარება, თუ როგორი ადამიანი გჭირდებათ გუნდში, ან თქვენ რა შეგიძლიათ თავად შესთავაზოთ გუნდს.
+
+### What should I bring with me? 
+**College hackers :** Your student ID card.<br>
+**High school hackers :** Any official document from school that shows you are an active student. <br>
+**Everyone :** Laptop, chargers, Rubik's Cube and anything you need to feel comfortable during the hackathon. 
 
 
-### რა უნდა ვიქონიო თან?
-**სტუდენტებმა :** სტუდენტური ბარათი და/ან პირადობის მოწმობა სტუდენტის სტატუსის აღნიშვნით.<br>
-**მოსწავლეებმა :** მოსწავლის სტატუსის დამადასტურებელი დოკუმენტი. <br>
-**ყველა მონაწილე :** საკუთარი ლეპტოპი, დამტენი, ბალიშები, “შეიძლება კარავიც” და ყველაფერი რაც კომფორტს შეგიმქნით სამი დღის განმავლობაში!
 
 
-### და რომ არ ვარ დეველოპერი?
-ჰაკათონები არ არის მხოლოდ  დეველოპერებისთვის - ჰაკათონები არის ყველასთვის! ხარ დიზაინერი, ხარ ინჟინერი, ხარ ნებისმიერი სფეროს წარმომადგენელი და გაქვს იდეა, ან არ გაქვს და თვლი რომ შენი ადგილი ჰაკათონზეა ? - მაშინ მოდი, რადგან HACK@MACS-ის კარი ყველასთვის ღიაა.
+### Team size?
+Teams can have up to 4 members. Hackers can participate individually but we highly encourage you to form teams. 
 
 
-### რამდენი წევრი შეიძლება იყოს გუნდში?
-გუნდში წევრების რაოდენობა არ უნდა აღემატებოდეს ოთხს. <br>
-ინდივიდუალურადაც შეგიძლიათ მონაწილეობის მიღება, თუმცა რეკომენდირებულია გუნდის შექმნა.
+### When?
+Opening ceremony:  7:00pm, December 19 <br>
+Hacking starts: 8:00pm, December 19 <br>
+Public expo: 1:00pm - 4:00pm, December 21 <br>
+Closing ceremony: 6pm, December 21
 
 
-### როდის იწყება?
-ჰაკათონი იწყება 14 მარტს და მიმდინარეობს 48 საათის განმავლობაში, 16 მარტის ჩათვლით. მონაწილეების რეგისტრაცია იწყება 17:00 საათიდან და გაგრძელდება 2 საათი. 19:00 საათიდან კი ჰაკათონი გახსნილად იქნება გამოცხადებული.
+
+### Is it free to participate?
+Of course! We'll also provide food, drinks and snacks during the hackathon.
 
 
-### ჰაკათონში მონაწილეობა უფასოა?
-რა თქმა უნდა, სრულიად უფასო!
+### Who runs hackTBILISI?
+hackTBILISI is run by the student organization - [UniHack](http://unihack.io).
 
+### Where should I come?
+hackTBILISI is hosted by Free University of Tbilisi.
 
-### ვინაა ორგანიზატორი და სად ტარდება?
-HACK@MACS-ის  ორგანიზატორია ორგანიზაცია UNIHACK და თავისუფალი უნივერსიტეტის MACSის სკოლა. ჰაკათონი ტარდება დიდი დიღმის საუნივერსიტეტო კამპუსსში.

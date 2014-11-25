@@ -54,7 +54,13 @@ module.exports =
       'languagePrefix': 'en/'
       '%s on %s': '%s on %s'
       'Register': 'Register'
+      'კითხვები': 'F.A.Q'
+      'პარტნიორები': 'Partners'
+      'სპონსორები': 'Sponsors'
     ka:
+      'პარტნიორები': 'პარტნიორები'
+      'სპონსორები': 'სპონსორები'
+      'კითხვები': 'კითხვები'
       'Register': 'რეგისტრაცია'
       'dec':'დეკ'
       'contact us':'დაგვიკავშირდით'
