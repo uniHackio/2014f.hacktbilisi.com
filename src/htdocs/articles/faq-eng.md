@@ -29,10 +29,10 @@ You can use the our [facebook event page](http://goo.gl/3YH8Kx) to find teammate
 
 
 ### როდის იწყება hackTBILISI?
-Opening ceremony:  7:00pm, December 19
-Hacking starts: 8:00pm, December 19
-Public expo: 1:00pm - 4:00pm, December 21
-Closing ceremony: 6pm, December 21 
+Opening ceremony:  7:00pm, December 19 <br>
+Hacking starts: 8:00pm, December 19 <br>
+Public expo: 1:00pm - 4:00pm, December 21 <br>
+Closing ceremony: 6pm, December 21
 
 
 
