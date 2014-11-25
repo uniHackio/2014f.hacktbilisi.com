@@ -17,6 +17,7 @@ sponsorGroups = [
   ]),
   group('mega',[
     sponsor("Alta Software", "http://altasoft.ge", "/images/sponsors/altasoft.png")
+    sponsor("GAU", "http://gau.edu.ge/", "/images/sponsors/gau.jpg")
     sponsor("APEX", "http://apex.ge", "/images/sponsors/apex.png")
   ]),
   group('kilo',[
