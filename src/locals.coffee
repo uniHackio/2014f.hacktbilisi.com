@@ -9,6 +9,7 @@ args2Obj = ->
 
 group = args2Obj("name", "sponsors")
 sponsor = partner = args2Obj("name", "href", "image")
+language = args2Obj("url", "title")
 
 
 sponsorGroups = [
@@ -49,12 +50,16 @@ module.exports =
       'Connecting Hackers from Europe and Asia': 'Connecting Hackers from Europe and Asia'
       'dec':'dec'
       'contact us':'contact us'
+      'nextLanguage': language('/','GEO')
       'languagePrefix': 'en/'
       '%s on %s': '%s on %s'
+      'Register': 'Register'
     ka:
+      'Register': 'რეგისტრაცია'
       'dec':'დეკ'
       'contact us':'დაგვიკავშირდით'
-      'languagePrefix': ''
+      'nextLanguage': language('/en','ENG')
+      'languagePrefix': '/'
       '%s on %s': '%s %s-ზე'
       'Stay Tuned!': 'გამოიწერე!'
       'Your Email': 'თქვენი ელ-ფოსტა'

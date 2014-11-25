@@ -26,7 +26,8 @@ t = module.exports = (defaultLanguageKey,locals)->
             #warn format is not set for default language
             gutil.log "T: unknown format #{format}";
             value = format
-        return vsprintf(value,args)
+        return vsprintf(value,args) if typeof value == 'string'
+        return value
     next: ->
       activeLanguageIndex += 1
       activeLanguageIndex %= languages.length

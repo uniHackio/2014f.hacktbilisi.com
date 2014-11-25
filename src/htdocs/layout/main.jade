@@ -1,6 +1,6 @@
-mixin mainNavigationLink(target,title)
+mixin mainNavigationLink(url,target,title)
   li(class='for-' + target)
-    a(href='#' + target)
+    a(href=url)
       span.title=title
 
 doctype html
@@ -26,9 +26,10 @@ html(lang="en")
         span.hack hack
         span.tbilisi tbilisi
       ul
-        +mainNavigationLink('faq', t('კითხვები'))
-        //- +mainNavigationLink('speaker', t('სპიკერები'))
-        +mainNavigationLink('sponsors', t('სპონსორები'))
+        +mainNavigationLink('#faq', 'faq', t('კითხვები'))
+        //- +mainNavigationLink('#speaker', 'speaker', t('სპიკერები'))
+        +mainNavigationLink('#sponsors', 'sponsors', t('სპონსორები'))
+        +mainNavigationLink(t('nextLanguage').url, 'nextLanguage', t('nextLanguage').title)
     div#main-wrapper
       block content
     script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
