@@ -7,6 +7,9 @@ include ../includes/socialLink.jade
     span.extra
       span.normal tm
       span.hover team
+  a.free-uni(href="http://freeuni.edu.ge")
+    img.image(alt=t('Free university of Tbilisi') src="/images/free.png")
+    span.text=t('Free university of Tbilisi')
 
   nav#social
     +socialLink(
@@ -36,7 +39,7 @@ include ../includes/socialLink.jade
     h1.title
       span.hack hack
       span.tbilisi tbilisi
-    h2.subtitle=t('Uniting Hackers from Europe and Asia')
+    h2.subtitle Uniting Hackers from Europe and Asia
 
   #cuboid
     form(action='/register', method='post', target='_blank', novalidate='')

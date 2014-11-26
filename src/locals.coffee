@@ -48,13 +48,12 @@ module.exports =
       'META_SITE_URL': 'http://hacktbilisi.com'
       'META_TITLE': 'hackTBILISI'
       'META_SITE_NAME': 'hackTbilisi.com'
-      'META_DESCRIPTION': 'Connecting Hackers from Europe and Asia, Tbilisi, Georgia , Dec 19-21 .uniHack',
+      'META_DESCRIPTION': 'Uniting Hackers from Europe and Asia, Tbilisi, Georgia , Dec 19-21 .uniHack',
 
       'Stay Tuned!': 'Stay Tuned!'
       'Your Email': 'Your Email'
       'Just a moment': 'Just a sec'
       'We\'ll be in touch!': 'We\'ll be in touch!'
-      'Connecting Hackers from Europe and Asia': 'Connecting Hackers from Europe and Asia'
       'dec':'dec'
       'contact us':'contact us'
       'nextLanguage': language('/','GEO')
@@ -65,7 +64,9 @@ module.exports =
       'პარტნიორები': 'Partners'
       'მედია პარტნიორები': 'Media Partners'
       'სპონსორები': 'Sponsors'
+      'Free university of Tbilisi': 'Free university of Tbilisi'
     ka:
+      'Free university of Tbilisi': 'თავისუფალი უნივერსიტეტი'
       'პარტნიორები': 'პარტნიორები'
       'მედია პარტნიორები': 'მედია პარტნიორები'
       'სპონსორები': 'სპონსორები'
