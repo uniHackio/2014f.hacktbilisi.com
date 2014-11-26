@@ -9,6 +9,7 @@ args2Obj = ->
 
 group = args2Obj("name", "sponsors")
 sponsor = partner = args2Obj("name", "href", "image")
+language = args2Obj("url", "title")
 
 
 sponsorGroups = [
@@ -25,7 +26,13 @@ sponsorGroups = [
     sponsor("AZRY", "http://azry.com", "/images/sponsors/azri.png")
   ])
 ]
-mediaPartners = []
+
+
+mediaPartners = [
+  partner('ideahub',"http://ideahub.ge","/images/sponsors/idea.png")
+  partner('Marketer',"http://marketer.ge","/images/sponsors/marketer.png")
+  partner('tabula',"http://tabula.ge","/images/sponsors/tabula.png")
+]
 partners = [
   partner('GitHub','http://github.com','/images/sponsors/github.png')
 ]
@@ -50,12 +57,24 @@ module.exports =
       'Connecting Hackers from Europe and Asia': 'Connecting Hackers from Europe and Asia'
       'dec':'dec'
       'contact us':'contact us'
+      'nextLanguage': language('/','GEO')
       'languagePrefix': 'en/'
       '%s on %s': '%s on %s'
+      'Register': 'Register'
+      'კითხვები': 'F.A.Q'
+      'პარტნიორები': 'Partners'
+      'მედია პარტნიორები': 'Media Partners'
+      'სპონსორები': 'Sponsors'
     ka:
+      'პარტნიორები': 'პარტნიორები'
+      'მედია პარტნიორები': 'მედია პარტნიორები'
+      'სპონსორები': 'სპონსორები'
+      'კითხვები': 'კითხვები'
+      'Register': 'რეგისტრაცია'
       'dec':'დეკ'
       'contact us':'დაგვიკავშირდით'
-      'languagePrefix': ''
+      'nextLanguage': language('/en','ENG')
+      'languagePrefix': '/'
       '%s on %s': '%s %s-ზე'
       'Stay Tuned!': 'გამოიწერე!'
       'Your Email': 'თქვენი ელ-ფოსტა'

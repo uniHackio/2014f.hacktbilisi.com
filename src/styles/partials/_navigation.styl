@@ -14,7 +14,7 @@ nav#main-nav
   left: 0
   right: 0
   height: $navHeight
-  border-bottom: 0.1em solid $opaqueLighterGray
+  box-shadow: inset 0 -0.1em $opaqueLighterGray
   background: $backgroundColor
   .logo
     .home-visable &
@@ -53,9 +53,7 @@ nav#main-nav
     li
       display: inline-block
       height: 100%
-      .active-events &.for-events a,
-      .active-philosophy &.for-philosophy a,
-      .active-team &.for-team a,
+      .active-faq &.for-faq a,
       .active-sponsors &.for-sponsors a
         box-shadow: inset 0 -3px $blue
       a

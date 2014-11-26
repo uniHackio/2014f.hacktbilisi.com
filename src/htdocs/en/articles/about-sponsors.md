@@ -1,3 +1,3 @@
-#სპონსორები
+##Sponsors
 
-სწორედ მათი დახმარებით ხდება hacktbilisi
+They made hackTBILISI a reality.
