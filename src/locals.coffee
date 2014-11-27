@@ -20,6 +20,7 @@ sponsorGroups = [
     sponsor("Alta Software", "http://altasoft.ge", "/images/sponsors/altasoft.png")
     sponsor("GAU", "http://gau.edu.ge/", "/images/sponsors/gau.jpg")
     sponsor("APEX", "http://apex.ge", "/images/sponsors/apex.png")
+    sponsor("Mobility", "http://mobility.ge", "/images/sponsors/mobility.png")
   ]),
   group('kilo',[
     sponsor("B.A.G", "http://bag.ge", "/images/sponsors/bag.png")
