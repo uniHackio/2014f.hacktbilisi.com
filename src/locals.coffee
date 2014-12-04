@@ -59,7 +59,7 @@ module.exports =
       'dec':'dec'
       'contact us':'contact us'
       'nextLanguage': language('/','GEO')
-      'languagePrefix': 'en/'
+      'languagePrefix': 'en'
       '%s on %s': '%s on %s'
       'Register': 'Register'
       'კითხვები': 'F.A.Q'
@@ -77,7 +77,7 @@ module.exports =
       'dec':'დეკ'
       'contact us':'დაგვიკავშირდით'
       'nextLanguage': language('/en','ENG')
-      'languagePrefix': '/'
+      'languagePrefix': ''
       '%s on %s': '%s %s-ზე'
       'Stay Tuned!': 'გამოიწერე!'
       'Your Email': 'თქვენი ელ-ფოსტა'
