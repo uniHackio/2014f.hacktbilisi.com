@@ -22,7 +22,7 @@
     .date
       font-weight: 300
       position: absolute
-      right: 0.25em
+      right: 0
       top:-0.8em
       font-size: 2.85em
       text-transform: uppercase
@@ -40,17 +40,33 @@
       margin: 0
       font-size: 8.5em
       line-height: 1.3em
-    .subtitle
-      text-align: center
-      border-top: solid 1px 
-      margin: 0
+    
+    .subtitle, .place
+      text-align: right
       font-weight: normal
-      font-size: 2.2em
       line-height: 1.4em
-      padding:  0.2em 0.5em
       font-weight: 300
+      margin: 0
+    .subtitle
+      border-top: solid 1px 
+      font-size: 2.2em
+      padding:  0.2em  0 0.2em 0.5em
       right: 0
       bottom: 0
+    .place
+      border: none
+      font-size: 1.7em
+      a 
+        color: hsl(0, 0%, 45%)
+      .fa
+        margin-right: 0.25em
+        line-height: 1.4em
+      &:hover
+        a
+          color: hsl(240, 98%, 69%)
+        .text
+          border-bottom:dashed 1px    
+
 .free-uni
   position: absolute
   bottom: 2em
@@ -129,7 +145,7 @@ nav#social
   color: white 
   text-align: center
   width: 500px 
-  font-weight: 400;
+  font-weight: 400
   margin: auto
   perspective: 1000px
   position: absolute
