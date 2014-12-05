@@ -4,11 +4,7 @@ include ../includes/socialLink.jade
 +centered()
   a.unihack-tm(href="http://uniHack.ge", target="_blank" title='uniHack')
     span.text .uniHack
-    span.extra
-      span.normal tm
-      span.hover team
-  a.free-uni(href="http://freeuni.edu.ge", target="_blank"  title=t('Free university of Tbilisi'))
-    img.image(alt=t('Free university of Tbilisi') src="/images/free"+ t('languagePrefix')+".png")
+
   nav#social
     +socialLink(
       'facebook',
@@ -38,10 +34,8 @@ include ../includes/socialLink.jade
       span.hack hack
       span.tbilisi tbilisi
     h2.subtitle Uniting Hackers from Europe and Asia
-    h3.place
-      a(href="https://goo.gl/maps/Lkghk")
-        i.fa.fa-map-marker 
-        span.text Free University Of Tbilisi
+    a.free-uni(href="http://freeuni.edu.ge", target="_blank"  title=t('Free university of Tbilisi'))
+      img.image(alt=t('Free university of Tbilisi') src="/images/free"+ t('languagePrefix')+".png")
   #cuboid
     form(action='/register', method='post', target='_blank', novalidate='')
       // #1 hover button
