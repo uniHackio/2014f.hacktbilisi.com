@@ -1,0 +1,60 @@
+.page-speakers
+  $background = $opaqueLight
+  h1,h2,h3,h4,h5
+    margin: 2em 0 1em
+  h1 
+    font-size:2em
+
+  .center
+    text-align: center
+  .background
+    background: $background
+  .speakers
+    clearfix()
+    max-width: 78em
+    margin: 0 auto
+  .speaker
+    width: 22em
+    float: left
+    padding: 1em 2em
+    text-align: center
+    &:nth-child(3n-2)
+      margin-left: 0
+      clear: both
+    .name,.position
+      margin: 0.5em 0
+    .name
+      margin-top: 1em
+    .name
+      font-family: $logoFontFamily
+      font-size: 2em
+      color: $blue
+    .position
+      font-size: 1.7em
+      color: $lightGray
+    .picture
+      overflow: hidden;
+      top: 1em
+      background: no-repeat center center
+      background-size:22em 22em
+      margin:0
+      size: 22em 22em
+      position: relative
+      box-sizing: border-box;
+      transition: 0.4s ease;
+      border: solid 11em alpha($blue, 0);
+      border-radius: 100%;
+      box-sizing: border-box;
+      position: relative
+      &:hover
+        border-width: 0.2em;
+        border-color: alpha($blue, 0.5);
+    .links
+      text-align: center
+      a
+        font-size: 2em
+        margin: 0.5em
+        opacity: 0.3
+        &:hover
+          opacity: 1
+          transition: opacity 0.2s ease-out

@@ -10,7 +10,10 @@ args2Obj = ->
 group = args2Obj("name", "sponsors")
 sponsor = partner = args2Obj("name", "href", "image")
 language = args2Obj("url", "title")
-
+person = args2Obj("id", "name", "position", "image", "links")
+link = args2Obj("icon", "on", "href")
+t = (en,ka)->
+  en:en, ka:ka || en
 
 sponsorGroups = [
   group('giga',[
@@ -35,8 +38,36 @@ mediaPartners = [
   partner('Marketer',"http://marketer.ge","/images/sponsors/marketer.png")
   partner('tabula',"http://tabula.ge","/images/sponsors/tabula.png")
 ]
+
 partners = [
   partner('GitHub','http://github.com','/images/sponsors/github.png')
+]
+
+speakers = [
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
+  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
+    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
+    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ])
 ]
 
 module.exports = 
@@ -44,6 +75,7 @@ module.exports =
     sponsorGroups: sponsorGroups
     mediaPartners: mediaPartners
     partners: partners
+    speakers: speakers
   defaultLanguageKey: 'en'
   locals:
     en:
@@ -67,7 +99,9 @@ module.exports =
       'მედია პარტნიორები': 'Media Partners'
       'სპონსორები': 'Sponsors'
       'Free university of Tbilisi': 'Free university of Tbilisi'
+      'სპიკერები':'Speakers'
     ka:
+      'სპიკერები':'სპიკერები'
       'Free university of Tbilisi': 'თავისუფალი უნივერსიტეტი'
       'პარტნიორები': 'პარტნიორები'
       'მედია პარტნიორები': 'მედია პარტნიორები'

@@ -1,0 +1,16 @@
+include ../includes/socialLink.jade
+mixin speaker(id,name,position,image,links)
+  section.speaker
+    figure.picture(id=id, style="background-image:url('"+image+"')")
+    h1.name=t(name)
+    h2.position=t(position)
+    nav.links
+      each link in links
+        +socialLink(link.icon,name +' on'+ link.on,link.href)
+      
+section.speakers
+  h1.center=t('სპიკერები')
+
+  div.speakers
+    for speaker in speakers
+      +speaker(speaker.id,speaker.name,speaker.position,speaker.image,speaker.links)

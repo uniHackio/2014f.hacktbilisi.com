@@ -16,6 +16,8 @@ t = module.exports = (defaultLanguageKey,locals)->
       (format, args) ->
         args = args || []
         languageCode = languages[langIndex]
+        if format and format[languageCode]
+          return format[languageCode]
         local = locals[languageCode]
         value = local[format]
         if typeof value == 'undefined'
