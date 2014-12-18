@@ -91,8 +91,10 @@ module.exports =
       'მედია პარტნიორები': 'Media Partners'
       'სპონსორები': 'Sponsors'
       'Free university of Tbilisi': 'Free university of Tbilisi'
+      'აჯენდა': 'Agenda'
       'სპიკერები':'Speakers'
     ka:
+      'აჯენდა': 'აჯენდა'
       'სპიკერები':'სპიკერები'
       'Free university of Tbilisi': 'თავისუფალი უნივერსიტეტი'
       'პარტნიორები': 'პარტნიორები'
