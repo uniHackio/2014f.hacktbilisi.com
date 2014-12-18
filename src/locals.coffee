@@ -29,6 +29,7 @@ sponsorGroups = [
   group('kilo',[
     sponsor("B.A.G", "http://bag.ge", "/images/sponsors/bag.png")
     sponsor("AZRY", "http://azry.com", "/images/sponsors/azri.png")
+    sponsor("Money Movers", "http://mm.ge", "/images/sponsors/mm.png")
   ])
 ]
 
@@ -47,28 +48,19 @@ speakers = [
   person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
     link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
     link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
-  ])
-  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
-    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
-    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
-  ])
-  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
-    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
-    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
-  ])
-  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
-    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
-    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
-  ])
-  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
-    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
-    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
-  ])
-  person('gmamaladze', t('George Mamaladze', 'გიორგი მამალაძე'), t('Architect at Siemens.'), '/images/speakers/mamaladze.jpeg', [
-    link('twitter', 'twitter', 'https://twitter.com/gmamaladze')
-    link('google-plus', 'google+', 'https://google.com/+GeorgeMamaladze')
+  ]),
+  person('shgiorgobiani', t('Shota Giorgobiani', 'შოთა გიორგობიანი'), t('Deputy Director at UGT.'), '/images/speakers/giorgobiani.jpg', [
+    link('twitter', 'twitter', 'https://twitter.com/shgiorgobiani')
+  ]),
+  person('nnanitashvili', t('Ninutsa Nanitashvili', 'ნინუცა ნანიტაშვილი'), t('Manager at GDG Tbilisi.'), '/images/speakers/nanitashvili.jpg', [
+    link('twitter', 'twitter', 'https://twitter.com/NinoNanitashvil')
+  ]),
+  person('rimnadze', t('Rezo Imnadze', 'რეზო იმნაძე'), t('Qarva'), '/images/speakers/imnadze.jpeg', [
+    
   ])
 ]
+
+
 
 module.exports = 
   data:
